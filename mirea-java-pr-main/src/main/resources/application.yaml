@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: java-pr
+
+  jmx:
+    enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database: postgresql
+
+email:
+  to: admin@admin.com
+
+backup:
+  directory: /home/sejapoe/dev/java/java-pr/backup
+
+jwt:
+  secret: 47397FFF432646294A404E635266556A586E3272357538782F4125442A472D4B
+  issuer: sejapoe
